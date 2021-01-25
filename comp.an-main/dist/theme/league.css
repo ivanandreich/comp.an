@@ -89,7 +89,7 @@
   font-size: 3.3em; }
 
 .reveal h2 {
-  font-size: 2.1em; }
+  font-size: 1.8em; }
 
 .reveal h3 {
   font-size: 1em; }
@@ -289,39 +289,111 @@
 @media print {
   .backgrounds {
     background-color: #2b2b2b; } }
-
-    #_function {
+    #complexcalc .formula.display{
       position: absolute;
-      top: 207px;
-      height: 100px;
-      width: 400px;
-      left: 273px;
+      left: 10px;
+      top: 200px;
+    }
+    #complexcalc .formula.inline{
+      position: absolute;
+      left: 145px;
+      top: 210px;
+    }
+
+    #plusik1 {
+      position: absolute;
+      left: 165px;
+      top: 210px;
+    }
+    #plusik2 {
+      position: absolute;
+      right: 216px;
+      top: 210px;
+    }
+
+    #i{
+      position: absolute;
+      top: 210px;
+      left: 320px;
+      font-size: 60px;
+      
+    }
+    #i1{
+      position: absolute;
+      top: 210px;
+      right: 75px;
+      font-size: 60px;
+      
+    }
+
+    #a1 {
+      position: absolute;
+      top: 200px;
+      height: 80px;
+      width: 100px;
+      left: 50px;
       font-size: 60px;
     }
-    #_b {
+    #b1 {
       position: absolute;
-      top: 133px;
+      top: 200px;
+      height: 80px;
+      width: 100px;
+      left: 200px;
+      font-size: 60px;
+    }
+    #a2 {
+      position: absolute;
+      top: 200px;
+      height: 80px;
+      width: 100px;
+      
+      right: 250px;
+      font-size: 60px;
+    }
+    #b2 {
+      position: absolute;
+      top: 200px;
+      height: 80px;
+      width: 100px;
+      right: 100px;
+      font-size: 60px;
+    }
+    #plus {
+      position: absolute;
+      top: 197px;
       width: 50px;
-      left: 221px;
+      left: 403px;
       height: 50px;
       font-size: 30px;
     }
-    #_a {
+    #minus {
       position: absolute;
-      top: 321px;
+      top: 197px;
       width: 50px;
-      left: 175px;
+      right: 450px;
       height: 50px;
       font-size: 30px;
     }
-    #_d {
+    #times {
       position: absolute;
-      top: 232px;
+      top: 250px;
       width: 50px;
-      left: 740px;
+      left: 403px;
       height: 50px;
       font-size: 30px;
     }
+    #divide {
+      position: absolute;
+      top: 250px;
+      width: 50px;
+      right: 450px;
+      height: 50px;
+      font-size: 30px;
+    }
+
+   
+   
     #evaluateIntegral .formula.display {
       position: absolute;
       left: 200px;
@@ -332,15 +404,9 @@
       left: 680px;
       top: 230px;
     }
-    #_getResult {
-      position: absolute;
-      top: 321px;
-      width: 524px;
-      left: 273px;
-      height: 50px;
-      font-size: 30px;
-    }
-    #_result {
+    
+    
+    #calcresult {
       top: 389px;
       position: absolute;
       margin-left: -50%;
